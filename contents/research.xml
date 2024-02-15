@@ -237,19 +237,75 @@
 
 	<!-- Working papers -->
   <wp>
+    <id>breast_cancer</id>
+    <title>Do Medical Treatments Work for Work? Evidence from Breast Cancer Patients</title>
+    <coauthors>William N. Evans, Mikkel Hasse Pedersen and Mircea Trandafir</coauthors>
+    <date>February 2024</date>
+    <notes></notes>
+    <abstract><![CDATA[
+    We investigate the effects of radiation therapy on the mortality and eco- nomic outcomes of breast cancer patients. We implement a 2SLS strategy within a difference-in-difference framework exploiting variation in treatment stemming from a medical guideline change in Denmark. Using administrative data, we reproduce results from an RCT showing the lifesaving benefits of radiother- apy. We then show therapy also has economic returns: ten years after diagnosis, treatment increases employment by 37% and earnings by 45%. Mortality and economic results are driven by results for more educated women, indicating that equalizing access to treatment may not be sufficient to reduce health in- equalities.
+    ]]></abstract>
+    <doc>Radiotherapy.pdf</doc>
+  </wp>
+
+  <wp>
+    <id>screening</id>
+    <title>An Economic Approach to Machine Learning in Health Policy</title>
+    <coauthors>Sendhil Mullainathan, Ziad Obermeyer, Suproteem K. Sarkar, Mircea Trandafir</coauthors>
+    <date>Janury 2024</date>
+    <notes></notes>
+    <abstract><![CDATA[
+    We consider the health effects of "precision" screening policies for cancer guided by algorithms. We show that machine learning models that predict breast cancer from health claims data outperform models based on just age and established risk factors. We estimate that screening women with high predicted risk of invasive tumors would reduce the long-run incidence of later-stage tumors by 40%. Screening high-risk women would also lead to half the rate of cancer overdiagnosis that screening low-risk women would. We show that these results depend crucially on the machine learning model’s prediction target. A model trained to predict positive mammography results leads to policies with weaker health effects and higher rates of overdiagnosis than a model trained to predict invasive tumors.
+    ]]></abstract>
+    <doc>Screening.pdf</doc>
+  </wp>
+  
+<wp>
+    <id>ChildSickness</id>
+    <title>Germs in the Family: The Short- and Long-Term Consequences of Intra-Household Disease Spread</title>
+    <coauthors>Hui Ding, Maya Rossin-Slater, Hannes Schwandt</coauthors>
+    <date>November 2023</date>
+    <notes><![CDATA[
+    NBER Working Paper No. 29524. 
+    <p> Press Coverage: <a href="https://cepr.org/voxeu/columns/germs-family-long-term-consequences-intra-household-endemic-respiratory-disease" target=_blank>VoxEU</a>
+    ]]></notes>
+    <abstract><![CDATA[
+    Preschool-aged children get sick frequently and spread disease to other family members. Despite the universality of this experience, there is limited causal evidence on the magnitudes and consequences of these externalities, especially for infant siblings with developing immune systems and brains. We use Danish administrative data to document that, before age one, younger siblings have 2-3 times higher hospitalization rates for respiratory conditions than older siblings. We combine birth order and within-municipality variation in respiratory disease prevalence among young children, and find lasting differential impacts of early-life respiratory disease exposure on younger siblings’ earnings, educational attainment, and mental health-related outcomes.    ]]></abstract>
+    <doc>ChildSickness.pdf</doc>
+  </wp>
+
+  <wp>
+    <id>HWTransmission</id>
+    <title>The Intergenerational Transmission of Housing Wealth</title>
+    <coauthors>Michael F. Lovenheim and David N. Wasser</coauthors>
+    <date>August 2023</date>
+    <notes><![CDATA[
+    NBER Working Paper No. 31669. 
+    <p> Press Coverage: <a href="https://cepr.org/voxeu/columns/intergenerational-transmission-housing-wealthe" target=_blank>VoxEU</a>
+    ]]></notes>
+    <abstract><![CDATA[
+    Rising wealth inequality has spurred an increased interest in understanding how and why wealth is correlated across generations. We exploit plausibly exogenous variation in housing wealth driven by home price changes in different areas to isolate the causal impact of parental housing wealth during different childhood periods on children’s long-run wealth accumulation. Using population-level Danish administrative data, we find that 27% and 25% of each Krone of parental housing wealth change during early-childhood is transmitted to children’s overall and housing wealth in adulthood, respectively. The corresponding transmission rates for parental housing wealth changes during middle-childhood are 25% and 15%, with a transmission to non-housing wealth of 10%. There is little evidence of transmission of parental housing wealth changes that occur during the teenage years. Examining mechanisms, we find that parental housing wealth changes in early and middle-childhood lead to modest increases in adult children’s home ownership, educational attainment, and earnings. However, earnings and education can explain only 20-30% of the intergenerational transmission of parental wealth gains during these periods. We argue that the transmission of parental housing wealth changes in childhood are driven in large part by changes to unobserved household environment and parental behaviors that are passed on to children and shape their savings behavior in adulthood.
+    ]]></abstract>
+    <doc>HWTransmission.pdf</doc>
+  </wp>
+
+  <wp>
     <id>PillMH</id>
     <title>The Oral Contraceptive Pill and Adolescents' Mental Health</title>
     <coauthors>Ana Costa-Ramón and  Ana Rodríguez-González</coauthors>
     <date>July 2023</date>
-    <notes>IZA Working Paper No. 16288</notes>
+    <notes><![CDATA[
+    IZA Working Paper No. 16288 
+    <p> Press Coverage: <a href="https://cepr.org/voxeu/columns/oral-contraceptive-pill-and-adolescents-mental-health" target=_blank>VoxEU</a>
+    ]]></notes>
     <abstract><![CDATA[
     What is the impact of the oral contraceptive pill on the mental health of adolescent girls?
-Using administrative data from Denmark and exploiting the variation in the timing of pill
-initiation in an event study design, we find that the likelihood of a depression diagnosis
-and antidepressant use increases shortly after pill initiation. We then uncover substantial
-variation in primary care providers’ tendency to prescribe the pill to adolescents, unrelated
-to patient characteristics. Being assigned to a high prescribing physician strongly predicts
-pill use by age 16 and leads to worse mental health outcomes between ages 16-18.
+    Using administrative data from Denmark and exploiting the variation in the timing of pill
+    initiation in an event study design, we find that the likelihood of a depression diagnosis
+    and antidepressant use increases shortly after pill initiation. We then uncover substantial
+    variation in primary care providers’ tendency to prescribe the pill to adolescents, unrelated
+    to patient characteristics. Being assigned to a high prescribing physician strongly predicts
+    pill use by age 16 and leads to worse mental health outcomes between ages 16-18.
     ]]></abstract>
     <doc>PillMH.pdf</doc>
   </wp>
@@ -265,46 +321,8 @@ pill use by age 16 and leads to worse mental health outcomes between ages 16-18.
     ]]></abstract>
     <doc>ChildhoodCancer.pdf</doc>
   </wp>
-  
-  <wp>
-    <id>ChildSickness</id>
-    <title>Germs in the Family: The Short- and Long-Term Consequences of Intra-Household Disease Spread</title>
-    <coauthors>Hui Ding, Maya Rossin-Slater, Hannes Schwandt</coauthors>
-    <date>November 2023</date>
-    <notes>NBER Working Paper No. 29524</notes>
-    <abstract><![CDATA[
-    Preschool-aged children get sick frequently and spread disease to other family members. Despite the universality of this experience, there is limited causal evidence on the magnitudes and consequences of these externalities, especially for infant siblings with developing immune systems and brains. We use Danish administrative data to document that, before age one, younger siblings have 2-3 times higher hospitalization rates for respiratory conditions than older siblings. We combine birth order and within-municipality variation in respiratory disease prevalence among young children, and find lasting differential impacts of early-life respiratory disease exposure on younger siblings’ earnings, educational attainment, and mental health-related outcomes.    ]]></abstract>
-    <doc>ChildSickness.pdf</doc>
-  </wp>
 
-  <wp>
-    <id>HWTransmission</id>
-    <title>The Intergenerational Transmission of Housing Wealth</title>
-    <coauthors>Michael F. Lovenheim and David N. Wasser</coauthors>
-    <date>August 2023</date>
-    <notes><![CDATA[
-    NBER Working Paper No. 31669
-    ]]></notes>
-    <abstract><![CDATA[
-    Rising wealth inequality has spurred an increased interest in understanding how and why wealth is correlated across generations. We exploit plausibly exogenous variation in housing wealth driven by home price changes in different areas to isolate the causal impact of parental housing wealth during different childhood periods on children’s long-run wealth accumulation. Using population-level Danish administrative data, we find that 27% and 25% of each Krone of parental housing wealth change during early-childhood is transmitted to children’s overall and housing wealth in adulthood, respectively. The corresponding transmission rates for parental housing wealth changes during middle-childhood are 25% and 15%, with a transmission to non-housing wealth of 10%. There is little evidence of transmission of parental housing wealth changes that occur during the teenage years. Examining mechanisms, we find that parental housing wealth changes in early and middle-childhood lead to modest increases in adult children’s home ownership, educational attainment, and earnings. However, earnings and education can explain only 20-30% of the intergenerational transmission of parental wealth gains during these periods. We argue that the transmission of parental housing wealth changes in childhood are driven in large part by changes to unobserved household environment and parental behaviors that are passed on to children and shape their savings behavior in adulthood.
-    ]]></abstract>
-    <doc>HWTransmission.pdf</doc>
-  </wp>
 
-    <wp>
-    <id>breast_cancer</id>
-    <title>Labor Market Effects  of  Life-Saving Treatments: The Case of Adjuvant Radiotherapy for Breast Cancer Patientss</title>
-    <coauthors>William N. Evans, Mikkel Hasse Pedersen and Mircea Trandafir</coauthors>
-    <date>October 2019</date>
-    <notes><![CDATA[
-      <strong><em>New version coming soon</em></strong>
-    ]]></notes>
-    <abstract><![CDATA[
-			We investigate the impact of adjuvant radiation therapy (RT) treatment on the labor market outcomes of breast cancer patients. In order to address the endogeneity in receipt of adjuvant radiotherapy, we use a 2SLS strategy that exploits plausibly exogenous variation in RT treatments due to changes in treatment guidelines. We find that adjuvant RT leads to significant improvements in employment and income. The gains are observed as early as three years after diagnosis and persist up to 10 years post-diagnosis. The main driver of these
-			results seems to be reduced disability in the future.
-    ]]></abstract>
-    <doc></doc>
-  </wp>
 
   <wp>
     <id>hrt</id>

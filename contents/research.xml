@@ -252,7 +252,7 @@
     <id>screening</id>
     <title>An Economic Approach to Machine Learning in Health Policy</title>
     <coauthors>Sendhil Mullainathan, Ziad Obermeyer, Suproteem K. Sarkar, Mircea Trandafir</coauthors>
-    <date>Janury 2024</date>
+    <date>January 2024</date>
     <notes></notes>
     <abstract><![CDATA[
     We consider the health effects of "precision" screening policies for cancer guided by algorithms. We show that machine learning models that predict breast cancer from health claims data outperform models based on just age and established risk factors. We estimate that screening women with high predicted risk of invasive tumors would reduce the long-run incidence of later-stage tumors by 40%. Screening high-risk women would also lead to half the rate of cancer overdiagnosis that screening low-risk women would. We show that these results depend crucially on the machine learning model’s prediction target. A model trained to predict positive mammography results leads to policies with weaker health effects and higher rates of overdiagnosis than a model trained to predict invasive tumors.

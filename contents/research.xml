@@ -260,7 +260,28 @@
     <doc>Screening.pdf</doc>
   </wp>
   
-<wp>
+  <wp>
+    <id>PillMH</id>
+    <title>The Oral Contraceptive Pill and Adolescents' Mental Health</title>
+    <coauthors>Ana Costa-Ramón and  Ana Rodríguez-González</coauthors>
+    <date>January 2024</date>
+    <notes><![CDATA[
+    IZA Working Paper No. 16288 
+    <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/oral-contraceptive-pill-and-adolescents-mental-health" target=_blank>VoxEU</a>
+    ]]></notes>
+    <abstract><![CDATA[
+    What is the impact of the oral contraceptive pill on the mental health of adolescent girls?
+    Using administrative data from Denmark and exploiting the variation in the timing of pill
+    initiation in an event study design, we find that the likelihood of a depression diagnosis
+    and antidepressant use increases shortly after pill initiation. We then uncover substantial
+    variation in primary care providers’ tendency to prescribe the pill to adolescents, unrelated
+    to patient characteristics. Being assigned to a high prescribing physician strongly predicts
+    pill use by age 16 and leads to worse mental health outcomes between ages 16-18.
+    ]]></abstract>
+    <doc>PillMH.pdf</doc>
+  </wp>
+
+  <wp>
     <id>ChildSickness</id>
     <title>Germs in the Family: The Short- and Long-Term Consequences of Intra-Household Disease Spread</title>
     <coauthors>Hui Ding, Maya Rossin-Slater, Hannes Schwandt</coauthors>
@@ -287,27 +308,6 @@
     Rising wealth inequality has spurred an increased interest in understanding how and why wealth is correlated across generations. We exploit plausibly exogenous variation in housing wealth driven by home price changes in different areas to isolate the causal impact of parental housing wealth during different childhood periods on children’s long-run wealth accumulation. Using population-level Danish administrative data, we find that 27% and 25% of each Krone of parental housing wealth change during early-childhood is transmitted to children’s overall and housing wealth in adulthood, respectively. The corresponding transmission rates for parental housing wealth changes during middle-childhood are 25% and 15%, with a transmission to non-housing wealth of 10%. There is little evidence of transmission of parental housing wealth changes that occur during the teenage years. Examining mechanisms, we find that parental housing wealth changes in early and middle-childhood lead to modest increases in adult children’s home ownership, educational attainment, and earnings. However, earnings and education can explain only 20-30% of the intergenerational transmission of parental wealth gains during these periods. We argue that the transmission of parental housing wealth changes in childhood are driven in large part by changes to unobserved household environment and parental behaviors that are passed on to children and shape their savings behavior in adulthood.
     ]]></abstract>
     <doc>HWTransmission.pdf</doc>
-  </wp>
-
-  <wp>
-    <id>PillMH</id>
-    <title>The Oral Contraceptive Pill and Adolescents' Mental Health</title>
-    <coauthors>Ana Costa-Ramón and  Ana Rodríguez-González</coauthors>
-    <date>July 2023</date>
-    <notes><![CDATA[
-    IZA Working Paper No. 16288 
-    <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/oral-contraceptive-pill-and-adolescents-mental-health" target=_blank>VoxEU</a>
-    ]]></notes>
-    <abstract><![CDATA[
-    What is the impact of the oral contraceptive pill on the mental health of adolescent girls?
-    Using administrative data from Denmark and exploiting the variation in the timing of pill
-    initiation in an event study design, we find that the likelihood of a depression diagnosis
-    and antidepressant use increases shortly after pill initiation. We then uncover substantial
-    variation in primary care providers’ tendency to prescribe the pill to adolescents, unrelated
-    to patient characteristics. Being assigned to a high prescribing physician strongly predicts
-    pill use by age 16 and leads to worse mental health outcomes between ages 16-18.
-    ]]></abstract>
-    <doc>PillMH.pdf</doc>
   </wp>
   
   <wp>

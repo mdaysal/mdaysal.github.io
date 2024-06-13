@@ -241,9 +241,10 @@
     <title>Do Medical Treatments Work for Work? Evidence from Breast Cancer Patients</title>
     <coauthors>William N. Evans, Mikkel Hasse Pedersen and Mircea Trandafir</coauthors>
     <date>February 2024</date>
-    <notes>NBER Working Paper No. 32167.
+    <notes><![CDATA[
+    NBER Working Paper No. 32167.
     <br> Revise and Resubmit at <b> American Economic Journal: Economic Policy </b>
-    </notes>
+    ]]></notes>
     <abstract><![CDATA[
     We investigate the effects of radiation therapy on the mortality and eco- nomic outcomes of breast cancer patients. We implement a 2SLS strategy within a difference-in-difference framework exploiting variation in treatment stemming from a medical guideline change in Denmark. Using administrative data, we reproduce results from an RCT showing the lifesaving benefits of radiother- apy. We then show therapy also has economic returns: ten years after diagnosis, treatment increases employment by 37% and earnings by 45%. Mortality and economic results are driven by results for more educated women, indicating that equalizing access to treatment may not be sufficient to reduce health in- equalities.
     ]]></abstract>

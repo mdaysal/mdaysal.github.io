@@ -240,30 +240,62 @@
     <id>breast_cancer</id>
     <title>Do Medical Treatments Work for Work? Evidence from Breast Cancer Patients</title>
     <coauthors>William N. Evans, Mikkel Hasse Pedersen and Mircea Trandafir</coauthors>
-    <date>February 2024</date>
+    <date>December 2024</date>
     <notes><![CDATA[
     NBER Working Paper No. 32167.
-    <br> Revise and Resubmit at <b> <i> American Economic Journal: Economic Policy </i> </b>
+    <br> Revised and Resubmitted at <b> <i> American Economic Journal: Economic Policy </i> </b>
     ]]></notes>
     <abstract><![CDATA[
-    We investigate the effects of radiation therapy on the mortality and eco- nomic outcomes of breast cancer patients. We implement a 2SLS strategy within a difference-in-difference framework exploiting variation in treatment stemming from a medical guideline change in Denmark. Using administrative data, we reproduce results from an RCT showing the lifesaving benefits of radiother- apy. We then show therapy also has economic returns: ten years after diagnosis, treatment increases employment by 37% and earnings by 45%. Mortality and economic results are driven by results for more educated women, indicating that equalizing access to treatment may not be sufficient to reduce health in- equalities.
+    We investigate the effects of radiation therapy on the mortality and economic outcomes of breast cancer patients. We implement a 2SLS strategy within a difference-in-differences framework exploiting variation in treatment stemming from a medical guideline change in Denmark. We reproduce the results from an RCT showing the lifesaving benefits of radiotherapy. We then show radiation therapy also has economic returns: ten years after diagnosis, treatment increases employment by 37% and earnings by 45%. Previous work has documented a substantial employment drop after a breast cancer diagnosis.  Our results imply that radiation therapy can reduce this effect by 70%.
     ]]></abstract>
     <doc>Radiotherapy.pdf</doc>
   </wp>
 
-  <wp>
-    <id>screening</id>
-    <title>An Economic Approach to Machine Learning in Health Policy</title>
-    <coauthors>Sendhil Mullainathan, Ziad Obermeyer, Suproteem K. Sarkar, Mircea Trandafir</coauthors>
-    <date>January 2024</date>
-    <notes></notes>
+    <wp>
+    <id>ChildSickness</id>
+    <title>Germs in the Family: The Short- and Long-Term Consequences of Intra-Household Disease Spread</title>
+    <coauthors>Hui Ding, Maya Rossin-Slater, Hannes Schwandt</coauthors>
+    <date>November 2023</date>
+    <notes><![CDATA[
+    NBER Working Paper No. 29524. 
+    <br> Revise and Resubmit at <b> <i> American Economic Review </i> </b>
+    <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/germs-family-long-term-consequences-intra-household-endemic-respiratory-disease" target=_blank>VoxEU</a> /
+    <a href="https://fortune.com/2024/03/27/older-sibling-success-money-pay-career-nber-study" target=_blank>Fortune</a> /
+    <a href="https://finance.yahoo.com/news/more-likely-more-money-older-100000738.html" target=_blank>Yahoo Finance</a>
+     / <a href="https://parentdata.org/younger-siblings-sicker-worse-off/" target=_blank>Parent Data</a>
+    ]]></notes>
     <abstract><![CDATA[
-    We consider the health effects of "precision" screening policies for cancer guided by algorithms. We show that machine learning models that predict breast cancer from health claims data outperform models based on just age and established risk factors. We estimate that screening women with high predicted risk of invasive tumors would reduce the long-run incidence of later-stage tumors by 40%. Screening high-risk women would also lead to half the rate of cancer overdiagnosis that screening low-risk women would. We show that these results depend crucially on the machine learning model’s prediction target. A model trained to predict positive mammography results leads to policies with weaker health effects and higher rates of overdiagnosis than a model trained to predict invasive tumors.
+    Preschool-aged children get sick frequently and spread disease to other family members. Despite the universality of this experience, there is limited causal evidence on the magnitudes and consequences of these externalities, especially for infant siblings with developing immune systems and brains. We use Danish administrative data to document that, before age one, younger siblings have 2-3 times higher hospitalization rates for respiratory conditions than older siblings. We combine birth order and within-municipality variation in respiratory disease prevalence among young children, and find lasting differential impacts of early-life respiratory disease exposure on younger siblings’ earnings, educational attainment, and mental health-related outcomes.    ]]></abstract>
+    <doc>ChildSickness.pdf</doc>
+  </wp>
+
+    <wp>
+    <id>child_disability</id>
+    <title>Child Disability and Effects on Sibling Mental Health</title>
+    <coauthors>Janet Currie, Mette Gørtz, and Jonas Hirani</coauthors>
+    <date>December 2024</date>
+    <notes><![CDATA[
+    NBER Working Paper No. 33303.
+    ]]></notes>
+    <abstract><![CDATA[
+    Mental health disorders are the leading cause of childhood disability worldwide. We examine the impact of a relatively common household stressor on child mental health: the presence of a younger sibling with a physical disability. Using Danish administrative data from families with at least 3 children, we focus on differences between first and second born children in families with and without a 3rd child with a disability.  Second-born children in these families spend a larger fraction of their early childhood in families that may be under stress. We find that second-born children are 11 percent more likely to use mental health services than first-born children.  There is a 19% increase in psychiatric visits and a 16% increase in use of psychiatric medications. These results are confirmed by matching models.
     ]]></abstract>
-    <doc>Screening.pdf</doc>
+    <doc>ChildDisability.pdf</doc>
   </wp>
   
-  <wp>
+    <wp>
+    <id>ChildCancer</id>
+    <title>Child Health, Parental Well-Being, and the Social Safety Net</title>
+    <coauthors>Achyuta Adhvaryu, Snaebjorn Gunnsteinsson, Teresa Molina, Herdis Steingrimsdottir</coauthors>
+    <date>December 2024</date>
+    <notes>NBER Working Paper No. 31277</notes>
+    <abstract><![CDATA[
+    How do parents contend with threats to the health and survival of their children? Can the social safety net mitigate the negative economic effects on affected families? We study these questions by combining the universe of cancer diagnoses among Danish children with register data for affected and matched unaffected families. Parental income declines substantially for 3-4 years following a child's cancer diagnosis. Fathers' incomes eventually recover fully, but mothers' incomes remain 3% lower 12 years after diagnosis. Using a policy reform that increased the generosity of targeted safety net transfers to affected families, we show that such transfers play a crucial role in smoothing income and, importantly, do not generate work disincentive effects; indeed, if anything, mothers' labor market outcomes improve as a result of the additional generosity. Mental health and fertility effects are large, but are not likely mediators for impacts on economic outcomes. The overall pattern of results is most consistent with the idea that parents' preferences to personally provide care for and spend time with their sick children are strong enough that additional work disincentives created by the generosity of the safety net are essentially irrelevant. This makes timely transfers to affected families an effective policy tool for smoothing income during the critical years following the onset of a severe health shock to children.
+    ]]></abstract>
+    <doc>ChildhoodCancer.pdf</doc>
+  </wp>
+
+    <wp>
     <id>PillMH</id>
     <title>The Oral Contraceptive Pill and Adolescents' Mental Health</title>
     <coauthors>Ana Costa-Ramón and  Ana Rodríguez-González</coauthors>
@@ -282,24 +314,6 @@
     pill use by age 16 and leads to worse mental health outcomes between ages 16-18.
     ]]></abstract>
     <doc>PillMH.pdf</doc>
-  </wp>
-
-  <wp>
-    <id>ChildSickness</id>
-    <title>Germs in the Family: The Short- and Long-Term Consequences of Intra-Household Disease Spread</title>
-    <coauthors>Hui Ding, Maya Rossin-Slater, Hannes Schwandt</coauthors>
-    <date>November 2023</date>
-    <notes><![CDATA[
-    NBER Working Paper No. 29524. 
-    <br> Revise and Resubmit at <b> <i> American Economic Review </i> </b>
-    <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/germs-family-long-term-consequences-intra-household-endemic-respiratory-disease" target=_blank>VoxEU</a> /
-    <a href="https://fortune.com/2024/03/27/older-sibling-success-money-pay-career-nber-study" target=_blank>Fortune</a> /
-    <a href="https://finance.yahoo.com/news/more-likely-more-money-older-100000738.html" target=_blank>Yahoo Finance</a>
-     / <a href="https://parentdata.org/younger-siblings-sicker-worse-off/" target=_blank>Parent Data</a>
-    ]]></notes>
-    <abstract><![CDATA[
-    Preschool-aged children get sick frequently and spread disease to other family members. Despite the universality of this experience, there is limited causal evidence on the magnitudes and consequences of these externalities, especially for infant siblings with developing immune systems and brains. We use Danish administrative data to document that, before age one, younger siblings have 2-3 times higher hospitalization rates for respiratory conditions than older siblings. We combine birth order and within-municipality variation in respiratory disease prevalence among young children, and find lasting differential impacts of early-life respiratory disease exposure on younger siblings’ earnings, educational attainment, and mental health-related outcomes.    ]]></abstract>
-    <doc>ChildSickness.pdf</doc>
   </wp>
 
   <wp>
@@ -329,19 +343,18 @@ behaviors that are passed on to children and shape their savings behavior in adu
     ]]></abstract>
     <doc>HWTransmission.pdf</doc>
   </wp>
-  
-  <wp>
-    <id>ChildCancer</id>
-    <title>Child Health, Parental Well-Being, and the Social Safety Net</title>
-    <coauthors>Achyuta Adhvaryu, Snaebjorn Gunnsteinsson, Teresa Molina, Herdis Steingrimsdottir</coauthors>
-    <date>December 2024</date>
-    <notes>NBER Working Paper No. 31277</notes>
-    <abstract><![CDATA[
-    How do parents contend with threats to the health and survival of their children? Can the social safety net mitigate the negative economic effects on affected families? We study these questions by combining the universe of cancer diagnoses among Danish children with register data for affected and matched unaffected families. Parental income declines substantially for 3-4 years following a child's cancer diagnosis. Fathers' incomes eventually recover fully, but mothers' incomes remain 3% lower 12 years after diagnosis. Using a policy reform that increased the generosity of targeted safety net transfers to affected families, we show that such transfers play a crucial role in smoothing income and, importantly, do not generate work disincentive effects; indeed, if anything, mothers' labor market outcomes improve as a result of the additional generosity. Mental health and fertility effects are large, but are not likely mediators for impacts on economic outcomes. The overall pattern of results is most consistent with the idea that parents' preferences to personally provide care for and spend time with their sick children are strong enough that additional work disincentives created by the generosity of the safety net are essentially irrelevant. This makes timely transfers to affected families an effective policy tool for smoothing income during the critical years following the onset of a severe health shock to children.
-    ]]></abstract>
-    <doc>ChildhoodCancer.pdf</doc>
-  </wp>
 
+  <wp>
+    <id>screening</id>
+    <title>An Economic Approach to Machine Learning in Health Policy</title>
+    <coauthors>Sendhil Mullainathan, Ziad Obermeyer, Suproteem K. Sarkar, Mircea Trandafir</coauthors>
+    <date>January 2024</date>
+    <notes></notes>
+    <abstract><![CDATA[
+    We consider the health effects of "precision" screening policies for cancer guided by algorithms. We show that machine learning models that predict breast cancer from health claims data outperform models based on just age and established risk factors. We estimate that screening women with high predicted risk of invasive tumors would reduce the long-run incidence of later-stage tumors by 40%. Screening high-risk women would also lead to half the rate of cancer overdiagnosis that screening low-risk women would. We show that these results depend crucially on the machine learning model’s prediction target. A model trained to predict positive mammography results leads to policies with weaker health effects and higher rates of overdiagnosis than a model trained to predict invasive tumors.
+    ]]></abstract>
+    <doc>Screening.pdf</doc>
+  </wp>
 
 
   <wp>

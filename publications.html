@@ -123,11 +123,11 @@
       text = '<h3>Comments and Invited Policy Briefs</h3>';
       papers=xmlDoc.getElementsByTagName("opub");
       for (i = 0; i < papers.length; i++) {
-        text += '<strong>'
+        text += '<strong><span style="font-size:1.25em; ">'
             + papers[i].getElementsByTagName("title")[0].textContent
-            + '</strong>'
+            + '</span></strong><br/>'
             + (isempty(papers[i].getElementsByTagName("coauthors")[0]) ? '.' :
-                (' (with ' + papers[i].getElementsByTagName("coauthors")[0].textContent + ').'))
+                (' with ' + papers[i].getElementsByTagName("coauthors")[0].textContent + '.'))
             + ' <strong><em>' + papers[i].getElementsByTagName("journal")[0].textContent + '</em></strong> '
             + (isempty(papers[i].getElementsByTagName("vol_issue")[0]) ? '' :
                 (papers[i].getElementsByTagName("vol_issue")[0].textContent))

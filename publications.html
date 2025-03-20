@@ -82,9 +82,9 @@
       for (i = 0; i < papers.length; i++) {
         text += '<strong>'
             + papers[i].getElementsByTagName("title")[0].textContent
-            + '</strong>'
+            + '</strong><br/>'
             + (isempty(papers[i].getElementsByTagName("coauthors")[0]) ? '.' :
-                (' (with ' + papers[i].getElementsByTagName("coauthors")[0].textContent + ').'))
+                (' with ' + papers[i].getElementsByTagName("coauthors")[0].textContent + '<br/>'))
             + ' <strong><em>' + papers[i].getElementsByTagName("journal")[0].textContent + '</em></strong> '
             + (isempty(papers[i].getElementsByTagName("vol_issue")[0]) ? '' :
                 (papers[i].getElementsByTagName("vol_issue")[0].textContent))

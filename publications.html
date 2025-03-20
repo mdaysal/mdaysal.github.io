@@ -80,7 +80,7 @@
       text = '<h3>Publications</h3>';
       papers=xmlDoc.getElementsByTagName("pub");
       for (i = 0; i < papers.length; i++) {
-        text += '<strong><span style="font-size:1.25em; ">'
+        text += '<strong><span style="font-size:1.15em; ">'
             + papers[i].getElementsByTagName("title")[0].textContent
             + '</span></strong><br/>'
             + (isempty(papers[i].getElementsByTagName("coauthors")[0]) ? '.' :
@@ -123,7 +123,7 @@
       text = '<h3>Comments and Invited Policy Briefs</h3>';
       papers=xmlDoc.getElementsByTagName("opub");
       for (i = 0; i < papers.length; i++) {
-        text += '<strong><span style="font-size:1.25em; ">'
+        text += '<strong><span style="font-size:1.15em; ">'
             + papers[i].getElementsByTagName("title")[0].textContent
             + '</span></strong><br/>'
             + (isempty(papers[i].getElementsByTagName("coauthors")[0]) ? '.' :

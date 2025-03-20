@@ -80,9 +80,9 @@
       text = '<h3>Publications</h3>';
       papers=xmlDoc.getElementsByTagName("pub");
       for (i = 0; i < papers.length; i++) {
-        text += '<strong>'
+        text += '<strong><span style="font-size:4em; ">'
             + papers[i].getElementsByTagName("title")[0].textContent
-            + '</strong><br/>'
+            + '</span></strong><br/>'
             + (isempty(papers[i].getElementsByTagName("coauthors")[0]) ? '.' :
                 (' with ' + papers[i].getElementsByTagName("coauthors")[0].textContent + '<br/>'))
             + ' <strong><em>' + papers[i].getElementsByTagName("journal")[0].textContent + '</em></strong> '

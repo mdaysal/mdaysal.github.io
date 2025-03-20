@@ -75,10 +75,27 @@
       xmlhttp.send();
       xmlDoc=xmlhttp.responseXML;
 
+      ///////////////
       // Publications
+      ///////////////
 
       text = '<h3>Publications</h3>';
       papers=xmlDoc.getElementsByTagName("pub");
+
+      //convert HTMLCollection to an array and run sort method on it
+      papers = Array.from(papers);
+      papers.sort(function(a, b) {
+        var textA = a.getElementsByTagName("date")[0].textContent;
+        var parts = textA.split(/\s* \s*/);
+        var dateA = new Date(Date.parse(parts[0] + " 1," + parts[1]));
+        var textB = b.getElementsByTagName("date")[0].textContent;
+        var parts = textB.split(/\s* \s*/);
+        var dateB = new Date(Date.parse(parts[0] + " 1," + parts[1]));
+        if (dateA.getTime() < dateB.getTime()) return 1;
+        if (dateA.getTime() > dateB.getTime()) return -1;
+        return 0;
+      });
+
       for (i = 0; i < papers.length; i++) {
         text += '<strong><span style="font-size:1.15em; ">'
             + papers[i].getElementsByTagName("title")[0].textContent
@@ -118,10 +135,27 @@
       }
       document.getElementById("pubs").innerHTML = text;
 
+      ///////////////
       // Comments and Invited Policy Briefs
+      ///////////////
 
       text = '<h3>Comments and Invited Policy Briefs</h3>';
       papers=xmlDoc.getElementsByTagName("opub");
+
+      //convert HTMLCollection to an array and run sort method on it
+      papers = Array.from(papers);
+      papers.sort(function(a, b) {
+        var textA = a.getElementsByTagName("date")[0].textContent;
+        var parts = textA.split(/\s* \s*/);
+        var dateA = new Date(Date.parse(parts[0] + " 1," + parts[1]));
+        var textB = b.getElementsByTagName("date")[0].textContent;
+        var parts = textB.split(/\s* \s*/);
+        var dateB = new Date(Date.parse(parts[0] + " 1," + parts[1]));
+        if (dateA.getTime() < dateB.getTime()) return 1;
+        if (dateA.getTime() > dateB.getTime()) return -1;
+        return 0;
+      });
+
       for (i = 0; i < papers.length; i++) {
         text += '<strong><span style="font-size:1.15em; ">'
             + papers[i].getElementsByTagName("title")[0].textContent

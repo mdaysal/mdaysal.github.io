@@ -84,7 +84,7 @@
             + papers[i].getElementsByTagName("title")[0].textContent
             + '</span></strong><br/>'
             + (isempty(papers[i].getElementsByTagName("coauthors")[0]) ? '.' :
-                (' with ' + papers[i].getElementsByTagName("coauthors")[0].textContent + '<br/>'))
+                (' with ' + papers[i].getElementsByTagName("coauthors")[0].textContent + '.'))
             + ' <strong><em>' + papers[i].getElementsByTagName("journal")[0].textContent + '</em></strong> '
             + (isempty(papers[i].getElementsByTagName("vol_issue")[0]) ? '' :
                 (papers[i].getElementsByTagName("vol_issue")[0].textContent))

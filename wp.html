@@ -97,11 +97,11 @@
       });
 
       for (i = 0; i < papers.length; i++) {
-        text += '<strong>'
+        text += '<strong><span style="font-size:1.15em; ">'
             + papers[i].getElementsByTagName("title")[0].textContent
-            + '</strong>'
-            + (isempty(papers[i].getElementsByTagName("coauthors")[0]) ? '.' :
-                (' (with ' + papers[i].getElementsByTagName("coauthors")[0].textContent + ').'))
+            + '</span></strong><br/>'
+            + (isempty(papers[i].getElementsByTagName("coauthors")[0]) ? '' :
+                (' with ' + papers[i].getElementsByTagName("coauthors")[0].textContent + '.'))
             + (isempty(papers[i].getElementsByTagName("date")[0]) ? '' :
                 (' ' + papers[i].getElementsByTagName("date")[0].textContent))
             + '.'

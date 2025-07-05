@@ -9,7 +9,7 @@
     <coauthors>William N. Evans, Mikkel Hasse Pedersen and Mircea Trandafir</coauthors>
     <journal>American Economic Journal: Economic Policy</journal>
         <vol_issue></vol_issue>
-    <date>Conditionally Accepted</date>
+    <date>Forthcoming</date>
     <pages></pages>
     <notes></notes>
     <abstract><![CDATA[
@@ -255,10 +255,10 @@
     <id>ChildSickness</id>
     <title>Germs in the Family: The Short- and Long-Term Consequences of Intra-Household Disease Spread</title>
     <coauthors>Hui Ding, Maya Rossin-Slater, Hannes Schwandt</coauthors>
-    <date>November 2023</date>
+    <date>July 2025</date>
     <notes><![CDATA[
     NBER Working Paper No. 29524. 
-    <br> Revise and Resubmit at <b> <i> American Economic Review </i> </b>
+    <br> 2nd Round Revise and Resubmit at <b> <i> American Economic Review </i> </b>
     <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/germs-family-long-term-consequences-intra-household-endemic-respiratory-disease" target=_blank>VoxEU</a> /
     <a href="https://fortune.com/2024/03/27/older-sibling-success-money-pay-career-nber-study" target=_blank>Fortune</a> /
     <a href="https://finance.yahoo.com/news/more-likely-more-money-older-100000738.html" target=_blank>Yahoo Finance</a>
@@ -267,6 +267,28 @@
     <abstract><![CDATA[
     Preschool-aged children get sick frequently and spread disease to other family members. Despite the universality of this experience, there is limited causal evidence on the magnitudes and consequences of these externalities, especially for infant siblings with developing immune systems and brains. We use Danish administrative data to document that, before age one, younger siblings have 2-3 times higher hospitalization rates for respiratory conditions than older siblings. We combine birth order and within-municipality variation in respiratory disease prevalence among young children, and find lasting differential impacts of early-life respiratory disease exposure on younger siblings’ earnings, educational attainment, and mental health-related outcomes.    ]]></abstract>
     <doc>ChildSickness.pdf</doc>
+  </wp>
+
+      <wp>
+    <id>AD</id>
+    <title>Antidepressant Treatment in Childhood</title>
+    <coauthors>Sonia Bhalotra, Mircea Trandafir</coauthors>
+    <date>July 2025</date>
+    <notes><![CDATA[
+    ]]></notes>
+    <abstract><![CDATA[
+    Mental health disorders tend to emerge in childhood, with half starting by age %&. This makes
+early intervention important, but treatment rates are low, and antidepressant treatment for children remains controversial since an FDA warning in "##& that highlighted adverse effects. Linking individuals across Danish administrative registers, we provide some of the first evidence of
+impacts of antidepressant treatment in childhood on objectively measured mental health indicators and economic outcomes over time, and the !rst attempt to investigate under- vs over-
+treatment. Leveraging conditional random assignment of patients to psychiatrists with different prescribing tendencies, we find that treatment during ages 8-15 improves test scores at age 16, particularly in Math, increases enrollment in post-compulsory education at age 18, and that
+it leads to higher employment and earnings and lower welfare dependence at ages 25-30. We
+demonstrate, on average, a reduction in suicide attempts, self-harm, and hospital visits following AD initiation. The gains to treatment are, in general, larger for low SES children, but they
+are less likely to be treated. Using a marginal treatment effects framework and Math scores as the
+focal outcome, we show positive returns to treatment among the untreated. Policy simulations
+confirm that expanding treatment among low SES children (and boys) generates substantial net
+benefits, consistent with under-treatment in these groups. Our !ndings underscore the potential of early mental health treatment to improve longer term economic outcomes and reducing
+inequality.    ]]></abstract>
+    <doc>AD.pdf</doc>
   </wp>
 
     <wp>
@@ -297,21 +319,20 @@
 
     <wp>
     <id>PillMH</id>
-    <title>The Oral Contraceptive Pill and Adolescents' Mental Health</title>
+    <title>The Oral Contraceptive Pill, Adolescents' Mental Health and Socio-Economic Outcomes</title>
     <coauthors>Ana Costa-Ramón and  Ana Rodríguez-González</coauthors>
-    <date>March 2025</date>
+    <date>July 2025</date>
     <notes><![CDATA[
     IZA Working Paper No. 16288 
     <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/oral-contraceptive-pill-and-adolescents-mental-health" target=_blank>VoxEU</a>
     ]]></notes>
     <abstract><![CDATA[
-    What is the impact of the oral contraceptive pill on the mental health of adolescent girls?
-    Using administrative data from Denmark and exploiting the variation in the timing of pill
-    initiation in an event study design, we find that the likelihood of a depression diagnosis
-    and antidepressant use increases shortly after pill initiation. We then uncover substantial
-    variation in primary care providers’ tendency to prescribe the pill to adolescents, unrelated
-    to patient characteristics. Being assigned to a high prescribing physician strongly predicts
-    pill use by age 16 and leads to worse mental health outcomes between ages 16-18.
+    This paper examines the mental health and socio-economic effects of oral contraceptive use among adolescents. Using Danish administrative data and two complementary
+identification strategies - an event study and provider prescribing variation - we find
+that initiation of the combined pill leads to short-run increases in psychiatric contacts,
+depression diagnoses, and antidepressant use. Evidence points to a biological mechanism rather than increased detection. Despite these short-term effects, we find no
+impact on academic performance, educational attainment, or labor market outcomes.
+Our findings highlight an important trade-off in adolescent contraceptive care.
     ]]></abstract>
     <doc>PillMH.pdf</doc>
   </wp>
@@ -320,7 +341,7 @@
     <id>HWTransmission</id>
     <title>The Intergenerational Transmission of Housing Wealth</title>
     <coauthors>Michael F. Lovenheim and David N. Wasser</coauthors>
-    <date>March 2025</date>
+    <date>July 2025</date>
     <notes><![CDATA[
     NBER Working Paper No. 31669. 
     <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/intergenerational-transmission-housing-wealthe" target=_blank>VoxEU</a>

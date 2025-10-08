@@ -265,13 +265,24 @@
   </opub>
 
 	<!-- Working papers -->
+      <wp>
+    <id>AD</id>
+    <title>Parental Leave and Intimate Partner Violence</title>
+    <coauthors>Dan Anderberg, Line Andersen, Mette Ejrnæs</coauthors>
+    <date>October 2025</date>
+    <notes><![CDATA[
+    ]]></notes>
+    <abstract><![CDATA[
+We examine the impact of a 2002 Danish parental leave reform on intimate partner violence (IPV) using administrative data on assault-related hospital contacts. Using a regression discontinuity design, we show that extending fully paid leave increased mothers’ leave-taking and substantially reduced IPV, with effects concentrated among less-educated women. The reform also lengthened birth spacing, while separations remained unchanged and earnings effects were modest. The timing and heterogeneity of impacts point to fertility adjustments—rather than exit options or financial relief—as the key mechanism. Parental leave policy thus emerges as an underexplored lever for reducing IPV.    ]]></abstract>
+    <doc>Parental_Leave_and_IPV.pdf</doc>
+  </wp>
 
       <wp>
     <id>AD</id>
     <title>Antidepressant Treatment in Childhood</title>
     <coauthors>Sonia Bhalotra, Mircea Trandafir</coauthors>
     <date>July 2025</date>
-    <notes><![CDATA[
+    <notes>IZA Working Paper No. 18069. CESifo Working Paper No. 12067.<![CDATA[
     ]]></notes>
     <abstract><![CDATA[
     Mental health disorders tend to emerge in childhood, with half starting by age %&. This makes
@@ -307,7 +318,7 @@ inequality.    ]]></abstract>
     <title>Child Health, Parental Well-Being, and the Social Safety Net</title>
     <coauthors>Achyuta Adhvaryu, Snaebjorn Gunnsteinsson, Teresa Molina, Herdis Steingrimsdottir</coauthors>
     <date>December 2024</date>
-    <notes>NBER Working Paper No. 31277</notes>
+    <notes>NBER Working Paper No. 31277. IZA Working Paper No. 16115. CESifo Working Paper No. 10418.</notes>
     <abstract><![CDATA[
     How do parents contend with threats to the health and survival of their children? Can the social safety net mitigate the negative economic effects on affected families? We study these questions by combining the universe of cancer diagnoses among Danish children with register data for affected and matched unaffected families. Parental income declines substantially for 3-4 years following a child's cancer diagnosis. Fathers' incomes eventually recover fully, but mothers' incomes remain 3% lower 12 years after diagnosis. Using a policy reform that increased the generosity of targeted safety net transfers to affected families, we show that such transfers play a crucial role in smoothing income and, importantly, do not generate work disincentive effects; indeed, if anything, mothers' labor market outcomes improve as a result of the additional generosity. Mental health and fertility effects are large, but are not likely mediators for impacts on economic outcomes. The overall pattern of results is most consistent with the idea that parents' preferences to personally provide care for and spend time with their sick children are strong enough that additional work disincentives created by the generosity of the safety net are essentially irrelevant. This makes timely transfers to affected families an effective policy tool for smoothing income during the critical years following the onset of a severe health shock to children.
     ]]></abstract>
@@ -320,7 +331,7 @@ inequality.    ]]></abstract>
     <coauthors>Ana Costa-Ramón and  Ana Rodríguez-González</coauthors>
     <date>July 2025</date>
     <notes><![CDATA[
-    IZA Working Paper No. 16288.
+    IZA Working Paper No. 16288. CESifo Working Paper No. 10549.
     <br> Revise and Resubmit at the <b>Economic Journal</b>
     <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/oral-contraceptive-pill-and-adolescents-mental-health" target=_blank>VoxEU</a>
     ]]></notes>
@@ -341,7 +352,7 @@ Our findings highlight an important trade-off in adolescent contraceptive care.
     <coauthors>Michael F. Lovenheim and David N. Wasser</coauthors>
     <date>July 2025</date>
     <notes><![CDATA[
-    NBER Working Paper No. 31669. 
+    NBER Working Paper No. 31669. IZA Working Paper No. 16429. CESifo Working Paper No. 10647.
     <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/intergenerational-transmission-housing-wealthe" target=_blank>VoxEU</a>
     ]]></notes>
     <abstract><![CDATA[

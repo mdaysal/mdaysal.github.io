@@ -31,6 +31,7 @@
     We investigate the effects of radiation therapy on the mortality and economic outcomes of breast cancer patients. We implement a 2SLS strategy within a difference-in-differences framework exploiting variation in treatment stemming from a medical guideline change in Denmark. We reproduce the results from an RCT showing the lifesaving benefits of radiotherapy. We then show radiation therapy also has economic returns: ten years after diagnosis, treatment increases employment by 37% and earnings by 45%. Previous work has documented a substantial employment drop after a breast cancer diagnosis.  Our results imply that radiation therapy can reduce this effect by 70%.
     ]]></abstract>
     <doc>Radiotherapy.pdf</doc>
+    <doi>https://doi.org/10.1257/pol.20240133</doi>
   </pub>
 
   <pub>

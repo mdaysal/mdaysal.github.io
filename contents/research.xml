@@ -266,7 +266,19 @@
   </opub>
 
 	<!-- Working papers -->
-      <wp>
+  <wp>
+    <id>PP_MH</id>
+    <title>Postpartum Depression and the Motherhood Penalty</title>
+    <coauthors>Sonia Bhalotra, Louis Freget, Jonas Cuzulan Hirani, Priyama Majumdar, Mircea Trandafir, Miriam Wüst, Tom Zohar</coauthors>
+    <date>January 2026</date>
+    <notes><![CDATA[
+    ]]></notes>
+    <abstract><![CDATA[
+Using Danish administrative data linked to two independent, validated postpartum depression screenings, we study how postpartum mental health shocks shape women’s labor market trajectories. Event-study estimates show no pre-birth differences in trends between depressed and non-depressed mothers, but persistent employment gaps that widen immediately after birth. Health-care utilization patterns indicate that these differences reflect acute mental health shocks rather than pre-existing trends. The penalties are concentrated among less educated mothers and those in less family-friendly jobs. Our results highlight postpartum depression as a meaningful and unequal contributor to the motherhood penalty.    ]]></abstract>
+    <doc>CP_and_mental_health.pdf</doc>
+
+  </wp>
+    <wp>
     <id>IPV</id>
     <title>Parental Leave and Intimate Partner Violence</title>
     <coauthors>Dan Anderberg, Line Andersen, Mette Ejrnæs</coauthors>

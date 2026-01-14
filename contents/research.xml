@@ -316,12 +316,11 @@ inequality.    ]]></abstract>
     <id>child_disability</id>
     <title>Child Disability and Effects on Sibling Mental Health</title>
     <coauthors>Janet Currie, Mette Gørtz, and Jonas Hirani</coauthors>
-    <date>December 2024</date>
-    <notes><![CDATA[
-    NBER WP 33303.
+    <date>December 2025</date>
+    <notes>NBER WP 33303.<![CDATA[
     ]]></notes>
     <abstract><![CDATA[
-    Mental health disorders are the leading cause of childhood disability worldwide. We examine the impact of a relatively common household stressor on child mental health: the presence of a younger sibling with a physical disability. Using Danish administrative data from families with at least 3 children, we focus on differences between first and second born children in families with and without a 3rd child with a disability.  Second-born children in these families spend a larger fraction of their early childhood in families that may be under stress. We find that second-born children are 11 percent more likely to use mental health services than first-born children.  There is a 19% increase in psychiatric visits and a 16% increase in use of psychiatric medications. These results are confirmed by matching models.
+    We investigate how a younger sibling’s physical disability affects sibling mental health using Danish register data on families with three or more children.  Difference-in-difference models compare first- and second-born children when the third-born does or does not have a disability.  Use of mental health services increases 13% among second-born children, with a 23% increase in psychiatric visits and an 18% increase in use of psychiatric medications. Effects are concentrated in households where the mother has less than high school and persist after conditioning on child test scores. Parental responses suggest that caregiving demands, stress, and strained resources are potential mechanisms.
     ]]></abstract>
     <doc>ChildDisability.pdf</doc>
   </wp>
@@ -330,7 +329,7 @@ inequality.    ]]></abstract>
     <id>ChildCancer</id>
     <title>Child Health, Parental Well-Being, and the Social Safety Net</title>
     <coauthors>Achyuta Adhvaryu, Snaebjorn Gunnsteinsson, Teresa Molina, Herdis Steingrimsdottir</coauthors>
-    <date>December 2024</date>
+    <date>December 2025</date>
     <notes>NBER WP 31277. IZA WP 16115. CESifo WP 10418.</notes>
     <abstract><![CDATA[
     How do parents contend with threats to the health and survival of their children? Can the social safety net mitigate the negative economic effects on affected families? We study these questions by combining the universe of cancer diagnoses among Danish children with register data for affected and matched unaffected families. Parental income declines substantially for 3-4 years following a child's cancer diagnosis. Fathers' incomes eventually recover fully, but mothers' incomes remain 3% lower 12 years after diagnosis. Using a policy reform that increased the generosity of targeted safety net transfers to affected families, we show that such transfers play a crucial role in smoothing income and, importantly, do not generate work disincentive effects; indeed, if anything, mothers' labor market outcomes improve as a result of the additional generosity. Mental health and fertility effects are large, but are not likely mediators for impacts on economic outcomes. The overall pattern of results is most consistent with the idea that parents' preferences to personally provide care for and spend time with their sick children are strong enough that additional work disincentives created by the generosity of the safety net are essentially irrelevant. This makes timely transfers to affected families an effective policy tool for smoothing income during the critical years following the onset of a severe health shock to children.

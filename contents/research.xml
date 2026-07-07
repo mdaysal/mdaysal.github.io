@@ -267,7 +267,26 @@
 
 	<!-- Working papers -->
   <wp>
-    <id>PP_MH</id>
+    <id>glp</id>
+    <title>The Labor Market Impacts of GLP-1s</title>
+    <coauthors>Camille Fredrickson, Ida Lykke Kristiansen, Mircea Trandafir, Jonathan Zhang</coauthors>
+    <date>July 2026</date>
+    <notes><![CDATA[
+    
+    ]]></notes>
+    <abstract><![CDATA[
+We estimate the causal impacts of GLP-1 treatment on labor market outcomes using linked Danish
+administrative data and a matched stacked difference-in-differences design. We compare patients who
+initiate GLP-1 treatment during the first two years of Semaglutide availability to observably similar
+patients who initiate four years later. We find that GLP-1 treatment reduces long-term sickness leave by
+17.3%. We estimate total fiscal benefits of GLP-1 initiation of approximately 1.3-1.5% of annual labor
+income per employed individual. We do not detect statistically significant or economically meaningful
+impacts on income, labor force participation, or employment over four years.   ]]></abstract>
+    <doc>glp1-labor.pdf</doc>
+  </wp>
+  
+  <wp>
+    <id>Victim</id>
     <title>Intergenerational Transmission of Victimization</title>
     <coauthors>Sonia Bhalotra, Mathias Fjællegaard Jensen, Thomas H. Jørgensen, Sébastien Montpetit</coauthors>
     <date>May 2026</date>

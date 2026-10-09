@@ -267,6 +267,19 @@
 
 	<!-- Working papers -->
   <wp>
+    <id>rto</id>
+    <title>Randomized to Opportunity: Measuring Place Effects for Refugee Children</title>
+    <coauthors>Joseph J. Doyle, Jr. Naeim S. Samandari, Emil A. L. Simonsen, Mircea Trandafir </coauthors>
+    <date>October 2026</date>
+    <notes><![CDATA[
+    NBER WP 35853. 
+    ]]></notes>
+    <abstract><![CDATA[
+Area-level measures of economic opportunity are increasingly used to guide place-based policies. We study whether these measures predict long-run outcomes for a vulnerable population: over 12,000 refugee children quasi-randomly assigned to municipalities under Denmark's 1986-1998 dispersal policy. We focus on predetermined measures of opportunity available when children arrive and validate them using a mover-exposure design among permanent residents. Moving from a low- to a high-opportunity area (a two-standard-deviation increase) raises adult income rank by 3 percentile points (7.5 percent) and employment by 4 percentage points. It also reduces criminal convictions by 14 percent and teen parenthood by 19 percent, with more modest effects on educational attainment. Economic opportunity predicts crime and teen parenthood more strongly than other area characteristics, including local crime rates. For adult income, area-level inequality is a particularly strong predictor. These findings suggest that social mobility in the areas where refugee children grow up meaningfully shapes their long-term wellbeing.]]></abstract>
+    <doc>Randomized to Opportunity.pdf</doc>
+  </wp>
+  
+  <wp>
     <id>glp</id>
     <title>The Labor Market Impacts of GLP-1s</title>
     <coauthors>Camille Fredrickson, Ida Lykke Kristiansen, Mircea Trandafir, Jonathan Zhang</coauthors>

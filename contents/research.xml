@@ -2,6 +2,28 @@
 
 <research_info>
 
+  <!-- Commentary: columns, op-eds and policy briefs I wrote.
+       paper = id of the related paper (optional); pdf = file in docs/ (optional) -->
+  <commentary>
+    <item outlet="RFBerlin Research Insight" date="2026-10" type="Policy brief" paper="child_disability" with="Janet Currie, Mette Gørtz and Jonas Cuzulan Hirani" url="https://www.rfberlin.com/research-insights/when-a-younger-sibling-has-a-disability-older-children/">When a Younger Sibling Has a Disability, Older Children Pay a Mental Health Price</item>
+    <item outlet="VoxEU" date="2026-08" type="Column" paper="glp" with="Camille Fredrickson, Ida Lykke Kristiansen, Mircea Trandafir and Jonathan Zhang" url="https://cepr.org/voxeu/columns/glp-1-treatment-reduces-sickness-absence">GLP-1 treatment reduces sickness absence</item>
+    <item outlet="IZA World of Labor" date="2025-09-30" type="Opinion" paper="ChildSickness" with="Hui Ding, Maya Rossin-Slater and Hannes Schwandt" url="https://wol.iza.org/opinions/when-sickness-spreads-at-home">When sickness spreads at home: How childhood viruses shape lifelong outcomes</item>
+    <item outlet="VoxEU" date="2023-10-16" type="Column" paper="HWTransmission" with="Michael F. Lovenheim and David N. Wasser" url="https://cepr.org/voxeu/columns/intergenerational-transmission-housing-wealth">The intergenerational transmission of housing wealth</item>
+    <item outlet="VoxEU" date="2023-08-26" type="Column" paper="PillMH" with="Ana Costa-Ramón and Ana Rodríguez-González" url="https://cepr.org/voxeu/columns/oral-contraceptive-pill-and-adolescents-mental-health">The oral contraceptive pill and adolescents’ mental health</item>
+    <item outlet="Samfundsøkonomen" date="2023-03" type="Policy brief" paper="bw_spillovers" with="Mircea Trandafir" pdf="Samfundsokonomen_2023.pdf">Medical Treatments and Social Mobility</item>
+    <item outlet="VoxEU" date="2022-01-04" type="Column" paper="ChildSickness" with="Hui Ding, Maya Rossin-Slater and Hannes Schwandt" url="https://cepr.org/voxeu/columns/germs-family-long-term-consequences-intra-household-endemic-respiratory-disease">Germs in the family: The long-term consequences of intra-household endemic respiratory disease spread</item>
+    <item outlet="IZA World of Labor" date="2021-09" type="Policy brief" with="Jonas Cuzulan Hirani" url="http://dx.doi.org/10.15185/izawol.217.v2" pdf="Daysal_WoL_2.pdf">Early-Life Medical Care and Human Capital Accumulation: Update</item>
+    <item outlet="IZA World of Labor" date="2016-07-11" type="Opinion" paper="nl_homebirths" url="https://wol.iza.org/opinions/are-home-births-safe-for-everyone">Are home births safe for everyone?</item>
+    <item outlet="Medisch Contact" date="2016" type="Article" lang="Dutch" paper="nl_homebirths" with="Mircea Trandafir and Reyn van Ewijk" pdf="Medisch_Contact.pdf">Thuisbevalling riskanter in arm gezin</item>
+    <item outlet="The Conversation" date="2015-07-27" type="Op-ed" paper="nl_homebirths" with="Mircea Trandafir and Reyn van Ewijk" also="The New Republic" also_url="https://newrepublic.com/article/122403/hospitals-are-only-safer-home-births-if-youre-poor" url="https://theconversation.com/hospitals-are-safer-than-home-births-but-only-if-youre-poor-45003">Hospitals are safer than home births – but only if you’re poor</item>
+    <item outlet="IZA World of Labor" date="2015-12" type="Policy brief" url="http://dx.doi.org/10.15185/izawol.217" pdf="Daysal_WoL.pdf">Early-Life Medical Care and Human Capital Accumulation</item>
+  </commentary>
+
+  <!-- Media not tied to a single paper (shown on the Media page only) -->
+  <media>
+    <item outlet="IZA World of Labor" date="2023-05-24" type="Video panel" url="https://wol.iza.org/videos/discussion-on-health-and-the-labour-markets">Panel discussion on health and the labor markets, with Carol Graham and Christopher Ruhm</item>
+  </media>
+
   <!-- Publications -->
   <pub>
     <id>ChildSickness</id>
@@ -11,11 +33,34 @@
         <vol_issue>116(7):</vol_issue>
     <date>July 2026</date>
     <pages>2643-84</pages>
-    <notes></notes>
+    <notes><![CDATA[
+    Working paper versions: CESifo WP 12074; IZA DP 18078; NBER WP 29524; RFBerlin DP 56/25.
+    ]]></notes>
     <abstract><![CDATA[
     Preschool-aged children get sick frequently and spread disease to other family members. Despite the universality of this experience, there is limited causal evidence on the magnitudes and consequences of these externalities, especially for infant siblings with developing immune systems and brains. We use Danish administrative data to document that, before age one, younger siblings have 2-3 times higher hospitalization rates for respiratory conditions than older siblings. We combine birth order and within-municipality variation in respiratory disease prevalence among young children, and find lasting differential impacts of early-life respiratory disease exposure on younger siblings’ earnings, educational attainment, chronic respiratory health and mental health-related outcomes.
     ]]></abstract>
     <doc>Child_Sickness.pdf</doc>
+    <doi>https://doi.org/10.1257/aer.20231521</doi>
+    <video>https://www.youtube.com/watch?v=WmRM2RUx_gU</video>
+    <!-- Media: featured="yes" items show on the home page; order here is display order -->
+    <media>
+      <item outlet="NPR, Here &amp; Now" date="2026-08-10" type="Radio interview" featured="yes" url="https://www.wbur.org/hereandnow/2026/08/10/firstborn-kids-siblings-study">Firstborn kids often grow up to earn more than their siblings. Germs and illness are big reasons why</item>
+      <item outlet="The Economist" date="2026-04-16" featured="yes" url="https://www.economist.com/graphic-detail/2026/04/16/why-eldest-siblings-are-brainier">Why eldest siblings are brainier</item>
+      <item outlet="The Washington Post" date="2026-06-09" featured="yes" url="https://www.washingtonpost.com/climate-environment/2026/06/09/why-birth-order-can-shape-kid-future-what-parents-can-do-about-it/">Your birth order affects your future, but not for the reason you think</item>
+      <item outlet="The Times" date="2026" url="https://www.thetimes.com/uk/science/article/why-do-firstborns-earn-more-siblings-xvllg9xbb">Why do firstborns earn more? Here’s the germ of an idea</item>
+      <item outlet="The Independent" date="2026-04-23" url="https://www.independent.co.uk/news/health/firstborn-children-siblings-iq-childhood-germs-study-b2963339.html">Study reveals why firstborn children are more likely to earn more</item>
+      <item outlet="El País" date="2026-07-02" lang="Spanish" url="https://elpais.com/ciencia/2026-07-02/el-hermano-mayor-perjudica-la-salud-y-la-economia-del-pequeno.html">El hermano mayor perjudica la salud y la economía del pequeño</item>
+      <item outlet="Fortune" date="2024-03-27" url="https://fortune.com/2024/03/27/older-sibling-success-money-pay-career-nber-study/">You’re more likely to make more money if you’re an older sibling—and now researchers think they know why</item>
+      <item outlet="Business Insider" date="2024-03-07" url="https://www.businessinsider.com/why-oldest-siblings-make-more-money-younger-siblings-healthcare-denmark-2024-3">Oldest siblings tend to make more money. Researchers have a new theory that explains why.</item>
+      <item outlet="Süddeutsche Zeitung" date="2026-06-17" lang="German" url="https://www.sueddeutsche.de/wissen/erfolg-geschwister-unterschiede-gruende-li.3497130">Weshalb jüngere Geschwister oft weniger erfolgreich sind</item>
+      <item outlet="Weekendavisen" date="2026-07-17" lang="Danish" url="https://www.weekendavisen.dk/ideer/virus-for-livet">Virus for livet</item>
+      <item outlet="Videnskab.dk" date="2026-08-10" lang="Danish" url="https://videnskab.dk/krop-sundhed/dansk-studie-spaedboern-smittet-af-aeldre-soeskende-klarer-sig-daarligere-senere-i-livet/">Dansk studie: Spædbørn smittet af ældre søskende klarer sig dårligere i livet</item>
+      <item outlet="TV 2 Kosmopol" date="2026-08" lang="Danish" url="https://www.tv2kosmopol.dk/koebenhavn/spaedborn-smittet-af-aeldre-soskende-klarer-sig-darligere-i-livet-28946">Spædbørn smittet af ældre søskende klarer sig dårligere i livet</item>
+      <item outlet="Telecinco" date="2026-07-02" lang="Spanish" url="https://www.telecinco.es/noticias/sociedad/20260702/hermanos-mayores-podrian-saberlo-salarios-tener-culpa-peor-salario-salud-menores_18_019615671.html">Los hermanos mayores podrían tener la culpa sin saberlo de la peor salud y salarios de los menores</item>
+      <item outlet="The Hill" date="2026" type="Opinion" url="https://thehill.com/opinion/healthcare/5929624-birth-order-study-disease-time/">Study links birth order to income, health, education</item>
+      <item outlet="NewsNation" date="2026-08" url="https://www.newsnationnow.com/health/smarter-elder-child-study-germs/">Were you the smarter elder child? Study says germs may be the reason</item>
+      <item outlet="ParentData" date="2024-02-20" url="https://parentdata.org/kids/younger-siblings-sicker-worse-off/">Are younger siblings worse off?</item>
+    </media>
   </pub>
   
   <pub>
@@ -26,12 +71,17 @@
         <vol_issue>17</vol_issue>
     <date>October 2025</date>
     <pages>379–409</pages>
-    <notes></notes>
+    <notes><![CDATA[
+    Working paper versions: CESifo WP 10962; IZA DP 16810; NBER WP 32167.
+    ]]></notes>
     <abstract><![CDATA[
     We investigate the effects of radiation therapy on the mortality and economic outcomes of breast cancer patients. We implement a 2SLS strategy within a difference-in-differences framework exploiting variation in treatment stemming from a medical guideline change in Denmark. We reproduce the results from an RCT showing the lifesaving benefits of radiotherapy. We then show radiation therapy also has economic returns: ten years after diagnosis, treatment increases employment by 37% and earnings by 45%. Previous work has documented a substantial employment drop after a breast cancer diagnosis.  Our results imply that radiation therapy can reduce this effect by 70%.
     ]]></abstract>
     <doc>Radiotherapy.pdf</doc>
     <doi>https://doi.org/10.1257/pol.20240133</doi>
+    <media>
+      <item outlet="Kristeligt Dagblad" date="2025-11-20" type="Print, p. 8" lang="Danish">Stråler hjælper brystkræft ramte i arbejde igen</item>
+    </media>
   </pub>
 
   <pub>
@@ -42,7 +92,9 @@
     <vol_issue>10</vol_issue>
     <date>Summer 2024 </date>
     <pages>322–356</pages>
-    <notes></notes>
+    <notes><![CDATA[
+    Working paper versions: IZA DP 14227; NBER WP 28652.
+    ]]></notes>
     <abstract><![CDATA[
     We assess theories that autism spectrum disorder (ASD) is heritable and transmitted through parental skills using data from Denmark. We construct parental skill measures by mapping Danish occupations to the Occupational Information Network (O*NET) survey of U.S. occupations and principal factor analysis. We find that fathers' skills are linked to ASD in children. A one standard deviation increase in a systems and ordering skills factor correlates with a modest but statistically significant 0.041 percentage-point (2.4%) increase in ASD incidence. There is a negative and slightly larger relationship with communication skills. ASD also is similarly correlated with Deming's (2017) routineness and social skills measures, and fathers again play larger roles. We also find evidence consistent with Baron-Cohen (2002) whereby extreme personality traits in parents affect ASD incidence; having two parents with high systems and ordering relative to communication skills leads to a 35% higher diagnosis rate than having parents with "balanced" skills. While all of these estimates are meaningful given the costs of ASD, they only explain a small fraction of variation in ASD diagnoses. Finally, although assortative mating on skills exists, we cannot detect a role for it in recent dramatic increases in ASD.
     ]]></abstract>
@@ -74,7 +126,9 @@
   <vol_issue>104</vol_issue>
   <date>January 2022</date>
   <pages>1-16</pages>
-  <notes></notes>
+  <notes><![CDATA[
+    Working paper version: IZA DP 9086.
+    ]]></notes>
   <abstract><![CDATA[
     We investigate the effects of early-life medical treatments on the treated children and their families. We use a regression discontinuity design that exploits changes in medical treatments across the very low birth weight (VLBW) cutoff. Using administrative data from Denmark, we establish that VLBW children have better health and higher test scores. We find that these benefits spill over to other family members: mothers enjoy better mental health and siblings have higher test scores. Maternal mental health improvements seem to be driven by better focal child health, and sibling spillovers by improved interactions within the family and parental compensating behavior. 
   ]]></abstract>
@@ -90,7 +144,9 @@
     <vol_issue>198</vol_issue>
     <date>June 2021</date>
     <pages>104366</pages>
-    <notes></notes>
+    <notes><![CDATA[
+    Working paper versions: IZA DP 13417; NBER WP 27469.
+    ]]></notes>
     <abstract><![CDATA[
       We estimate the effect of housing price changes on fertility and early-life child health in Denmark. Using rich population register data among women aged 20-44 who own a home, we find that for each 100,000 DKK increase in home prices (equivalent to $12,000), the likelihood of giving birth increases by 0.27 percentage points or 2.35%. These estimates are similar to findings from the US per dollar of home price change, which is surprising given the strong pro-natalist policies and generous government programs in Denmark. We also present the first estimates of the effect of home prices on infant health. Our findings indicate that housing price increases lead to better child health at birth in terms of low birth weight and prematurity, however most of these effects reflect changes in the composition of births. There is no evidence of an effect on health during the first five years of life. These findings are consistent with both children and child health being normal goods that are similarly-valued in the US and Denmark.
     ]]></abstract>
@@ -106,7 +162,9 @@
     <vol_issue>64</vol_issue>
     <date>March 2019</date>
     <pages>55-67</pages>
-    <notes></notes>
+    <notes><![CDATA[
+    Earlier version circulated as “Heterogeneous Effects of Medical Interventions on the Health of Low-Risk Newborns,” IZA DP 9810.
+    ]]></notes>
     <abstract><![CDATA[
       We investigate the effects of perinatal medical treatments on low-income newborns who are classified as low-risk. A policy rule in The Netherlands states that low-risk deliveries before week 37 should be supervised by physicians and later deliveries only by midwives with no physician present. This creates large discontinuities in the probability of receiving medical interventions only physicians are allowed to perform. Using a regression discontinuity design, we find that babies born slightly before the week-37 cutoff are significantly less likely to die than babies born slightly later. Our data suggest that physician supervision of birth reduces the likelihood of adverse events such as fetal distress or emergency C-section. Our results indicate that low-income women benefit from receiving a higher level of medical care even if no explicit risk factors have been recognized, pointing to challenges in identifying all high-risk pregnancies. "Back-of-the-envelope" calculations suggest this additional care is highly cost-effective.
     ]]></abstract>
@@ -122,12 +180,19 @@
     <vol_issue>7:3</vol_issue>
     <date>July 2015</date>
     <pages>28–50</pages>
-    <notes></notes>
+    <notes><![CDATA[
+    Working paper version: IZA DP 6879.
+    ]]></notes>
     <abstract><![CDATA[
       Many developed countries have recently experienced sharp increases in home birth rates. This paper investigates the impact of home births on the health of low-risk newborns using data from the Netherlands, the only developed country where home births are widespread. To account for endogeneity in location of birth, we exploit the exogenous variation in distance from a mother's residence to the closest hospital. We find that giving birth in a hospital leads to substantial reductions in newborn mortality. We provide suggestive evidence that proximity to medical technologies may be an important channel contributing to these health gains.
     ]]></abstract>
     <doc>NL_Homebirths_Manuscript.pdf</doc>
     <doi>https://doi.org/10.1257/app.20120359</doi>
+    <media>
+      <item outlet="The Washington Post, Wonkblog" date="2015-07-08" url="https://www.washingtonpost.com/news/wonk/wp/2015/07/08/why-home-births-are-safer-for-rich-women/">The economics of having your baby at home</item>
+      <item outlet="The Times" date="2015-07-29" featured="yes" url="https://www.thetimes.com/life-style/health-fitness/article/home-births-risky-for-poor-mothers-gwfk6t5qk2z">Home births risky for poor</item>
+      <item outlet="NU.nl" date="2015" lang="Dutch" url="https://www.nu.nl/gezondheid/4096143/thuisbevalling-voor-sommige-vrouwen-toch-onveiliger.html">Thuisbevalling voor sommige vrouwen toch onveiliger</item>
+    </media>
   </pub>
 
   <pub>
@@ -139,7 +204,7 @@
     <date>January 2015</date>
     <pages>179-208</pages>
     <notes><![CDATA[
-      <span style="font-size=70%;">Earlier versions of this paper circulated as "Spillover Effects of Drug Safety Warnings on Health Behavior"</span>
+    Earlier version circulated as “Spillover Effects of Drug Safety Warnings on Health Behavior,” IZA DP 6409.
     ]]></notes>
     <abstract><![CDATA[
       We examine how new medical information on drug safety impacts preventive health care use. We exploit the release of the findings of the Women's Health Initiative Study (WHIS) -- the largest randomized controlled trial of women's health -- which demonstrated in 2002 the health risks associated with the long-term use of Hormone Replacement Therapy (HRT). We first show that, after the release of the WHIS findings, HRT use dropped sharply among post-menopausal women. We then estimate the spillover effects of the WHIS findings on preventive care by means of a difference-in-differences methodology comparing changes in preventive care use among 60 to 69 year-old women (who have high rates of HRT use) with the change among women aged 75 and above (who have much lower rates of HRT use). Using data from the Behavioral Risk Factor Surveillance System for the period 1998-2007, we find that women aged 60-69 had statistically and economically significant declines in their annual mammography checks, checkups, cholesterol checks and blood stool tests, when compared to older women.
@@ -156,7 +221,9 @@
     <vol_issue>107</vol_issue>
     <date>November 2013</date>
     <pages>63-78</pages>
-    <notes></notes>
+    <notes><![CDATA[
+    Working paper versions: IZA DP 6694; NBER WP 18197.
+    ]]></notes>
     <abstract><![CDATA[
       Texas requires a school district to offer bilingual education when its enrollment of limited English proficient (LEP) students in a particular elementary grade and language is twenty or higher. Using school panel data, we find a significant increase in the probability that a district provides bilingual education above this 20-student cutoff. Using this discontinuity as an instrument for district bilingual education provision, we find that providing bilingual education programs (relative to providing only English as a Second Language programs) does not significantly impact the standardized test scores of students with Spanish as their home language (comprised primarily of ever-LEP students). However, we find significant positive impacts on non-LEP students’ achievement, which indicates that education programs for LEP students have spillover effects to non-LEP students.
     ]]></abstract>
@@ -172,9 +239,11 @@
     <date>July 2012</date>
     <pages>545-563</pages>
     <notes><![CDATA[
-      <span style="font-size=70%;">Mentioned in <a href="http://purl.access.gpo.gov/GPO/LPS113886"
-        target="_new">"The Economic Case For Health Care Reform"</a> (Council of Economic Advisers).</span>
+    Working paper version: IZA DP 6418.
     ]]></notes>
+    <media>
+      <item outlet="Council of Economic Advisers" date="2009-06" type="Cited in policy report" url="http://purl.access.gpo.gov/GPO/LPS113886">The Economic Case for Health Care Reform</item>
+    </media>
     <abstract><![CDATA[
       In this paper, I examine the impact of uninsured patients on the health of the insured, focusing on one health outcome -- the in-hospital mortality rate of insured heart attack patients. I employ panel data models using patient discharge and hospital financial data from California (1999-2006). My results indicate that uninsured patients have an economically significant effect that increases the mortality rate of insured heart attack patients. I show that these results are not driven by alternative explanations, including reverse causality, patient composition effects, sample selection or unobserved trends and that they are robust to a host of specification checks. My results also indicate that the primary channel for the observed spillover effects is increased hospital uncompensated care costs. Although data limitations constrain my capacity to check how hospitals change their provision of care to insured heart attack patients in response to reduced revenues, the evidence I have suggests a modest increase in the quantity of cardiac services without a corresponding increase in hospital staff.
     ]]></abstract>
@@ -190,7 +259,9 @@
     <vol_issue>17:4</vol_issue>
     <date>August 2010</date>
     <pages>710-722</pages>
-    <notes></notes>
+    <notes><![CDATA[
+    Working paper version: IZA DP 3508.
+    ]]></notes>
     <abstract><![CDATA[
       This paper studies the effects on registered employment and number of registered establishments of two employment subsidy schemes in Turkey. We implement a difference-in-differences methodology to construct appropriate counterfactuals for the covered provinces. Our findings suggest that both subsidy programs did lead to significant net increases in registered jobs in eligible provinces (5%-13% for the first program and 11%-15% for the second). However, the cost of the actual job creation was high because of substantial deadweight losses, particularly for the first program (47% and 78%). Because of better design features, the second subsidy program had lower, though still significant, deadweight losses (27%-46%). Although constrained by data availability, the evidence suggests that the dominant effect of subsidies was to increase social security registration of firms and workers rather than boosting total employment and economic activity. This supports the theory that in countries with weak enforcement institutions, high labor taxes on low-wage workers may lead to substantial incentives for firms and workers to operate informally.
     ]]></abstract>
@@ -199,22 +270,7 @@
   </pub>
 
 
-  <!-- Comments and Invited Policy Briefs -->
-
-    <opub>
-    <id>iza_labor_2</id>
-    <title>Early-Life Medical Care and Human Capital Accumulation: Update</title>
-    <coauthors>Jonas Cuzulan Hirani</coauthors>
-    <journal>IZA World of Labor</journal>
-    <vol_issue>217v2</vol_issue>
-    <date>September 2021</date>
-    <pages></pages>
-    <notes></notes>
-    <abstract><![CDATA[
-    ]]></abstract>
-    <doc>Daysal_WoL_2.pdf</doc>
-    <doi>http://dx.doi.org/10.15185/izawol.217.v2</doi>
-  </opub>
+  <!-- Comments (published in academic journals) -->
 
   <opub>
     <id>bjog_comment</id>
@@ -234,45 +290,14 @@
     <doi>https://dx.doi.org/10.1111/1471-0528.14250</doi>
   </opub>
 
-  <opub>
-    <id>medisch</id>
-    <title>Thuisbevalling  riskanter  in  arm  gezin</title>
-    <coauthors>Mircea Trandafir and Reyn van Ewijk</coauthors>
-    <journal>Medisch  Contact</journal>
-    <vol_issue>13</vol_issue>
-    <date>2016</date>
-    <pages>16-18</pages>
-    <notes></notes>
-    <abstract><![CDATA[
-      A summary of our findings on the effects of a hospital birth on low-risk newborn mortality. (In Dutch)
-    ]]></abstract>
-    <doc>Medisch_Contact.pdf</doc>
-    <doi>https://goo.gl/TV3WiR</doi>
-  </opub>
-
-  <opub>
-    <id>iza_labor</id>
-    <title>Early-Life Medical Care and Human Capital Accumulation</title>
-    <coauthors></coauthors>
-    <journal>IZA World of Labor</journal>
-    <vol_issue>217</vol_issue>
-    <date>December 2015</date>
-    <pages></pages>
-    <notes></notes>
-    <abstract><![CDATA[
-    ]]></abstract>
-    <doc>Daysal_WoL.pdf</doc>
-    <doi>http://dx.doi.org/10.15185/izawol.217</doi>
-  </opub>
-
 	<!-- Working papers -->
   <wp>
     <id>rto</id>
     <title>Randomized to Opportunity: Measuring Place Effects for Refugee Children</title>
-    <coauthors>Joseph J. Doyle, Jr. Naeim S. Samandari, Emil A. L. Simonsen, Mircea Trandafir </coauthors>
+    <coauthors>Joseph J. Doyle Jr., Naeim S. Samandari, Emil A. L. Simonsen, Mircea Trandafir</coauthors>
     <date>October 2026</date>
     <notes><![CDATA[
-    NBER WP 35853. 
+    CESifo WP 13049; IZA DP 19003; NBER WP 35853; RFBerlin DP 274/26.
     ]]></notes>
     <abstract><![CDATA[
 Area-level measures of economic opportunity are increasingly used to guide place-based policies. We study whether these measures predict long-run outcomes for a vulnerable population: over 12,000 refugee children quasi-randomly assigned to municipalities under Denmark's 1986-1998 dispersal policy. We focus on predetermined measures of opportunity available when children arrive and validate them using a mover-exposure design among permanent residents. Moving from a low- to a high-opportunity area (a two-standard-deviation increase) raises adult income rank by 3 percentile points (7.5 percent) and employment by 4 percentage points. It also reduces criminal convictions by 14 percent and teen parenthood by 19 percent, with more modest effects on educational attainment. Economic opportunity predicts crime and teen parenthood more strongly than other area characteristics, including local crime rates. For adult income, area-level inequality is a particularly strong predictor. These findings suggest that social mobility in the areas where refugee children grow up meaningfully shapes their long-term wellbeing.]]></abstract>
@@ -283,20 +308,22 @@ Area-level measures of economic opportunity are increasingly used to guide place
     <id>glp</id>
     <title>The Labor Market Impacts of GLP-1s</title>
     <coauthors>Camille Fredrickson, Ida Lykke Kristiansen, Mircea Trandafir, Jonathan Zhang</coauthors>
-    <date>July 2026</date>
+    <date>October 2026</date>
     <notes><![CDATA[
-    CESifo WP 12810. IZA WP 18787. RFBerlin WP 191/26.
-    <br> Conditionally Accepted at the <b>American Economic Review: Insights</b>
+    CESifo WP 12810; IZA DP 18787; NBER WP 35475; RFBerlin DP 191/26.
+    <br> Conditionally accepted at the <b>American Economic Review: Insights</b>
     ]]></notes>
     <abstract><![CDATA[
-We estimate the causal impacts of GLP-1 treatment on labor market outcomes using linked Danish
-administrative data and a matched stacked difference-in-differences design. We compare patients who
-initiate GLP-1 treatment during the first two years of Semaglutide availability to observably similar
-patients who initiate four years later. We find that GLP-1 treatment reduces long-term sickness leave by
-17.3%. We estimate total fiscal benefits of GLP-1 initiation of approximately 1.3-1.5% of annual labor
-income per employed individual. We do not detect statistically significant or economically meaningful
-impacts on income, labor force participation, or employment over four years.   ]]></abstract>
+    We estimate the causal impacts of GLP-1 treatment on labor market outcomes using linked Danish administrative data and a matched stacked difference-in-differences design. We compare patients who initiate GLP-1 treatment during the first two years of Semaglutide availability to observably similar patients who initiate four years later. We find that GLP-1 treatment reduces long-term sickness leave days by 22.8%, leading to total economic benefits of approximately 1.5–2.2% of annual labor income per employed individual. We do not detect statistically significant or economically meaningful impacts on employment, labor force participation, or total income over four years.
+    ]]></abstract>
     <doc>glp1-labor.pdf</doc>
+    <media>
+      <item outlet="CBS News" date="2026-07-21" featured="yes" url="https://www.cbsnews.com/news/glp1-drugs-worker-sick-leave-study/">GLP-1 drugs linked to 17% drop in worker sick leave, new economic study finds</item>
+      <item outlet="The Washington Post" date="2026-07-27" featured="yes" url="https://www.washingtonpost.com/health/2026/07/27/weight-loss-drugs-reduce-some-employee-sick-time-study-finds/">Weight loss drugs reduce some employee sick time, a study finds</item>
+      <item outlet="The Hill" date="2026-07" url="https://thehill.com/policy/healthcare/5986855-glp-1-drugs-sick-leave-use-reduction-economic-study/">Weight loss drugs could reduce need for long-term sick leave, new study shows</item>
+      <item outlet="NewsNation" date="2026-07" url="https://www.newsnationnow.com/health/glp-1-drugs-reduce-sick-leave/">GLP-1 drugs can reduce long-term sick leave by 17%</item>
+      <item outlet="HR Brew" date="2026-07" url="https://www.hr-brew.com/stories/employer-glp-1-coverage-sick-leave">Long-term sick leave dropped by 17% for Danish workers on GLP-1s</item>
+    </media>
   </wp>
   
   <wp>
@@ -305,7 +332,7 @@ impacts on income, labor force participation, or employment over four years.   ]
     <coauthors>Sonia Bhalotra, Mathias Fjællegaard Jensen, Thomas H. Jørgensen, Sébastien Montpetit</coauthors>
     <date>May 2026</date>
     <notes><![CDATA[
-    CESifo WP 12693. IZA WP 18681. RFBerlin WP 150/26.
+    CESifo WP 12693; IZA DP 18681; RFBerlin DP 150/26.
     ]]></notes>
     <abstract><![CDATA[
 Using four decades of Danish administrative data, we estimate the intergenerational transmission of violent crime victimization. Sons are twice as likely, and daughters three times as likely, to be victimized if a parent was victimized, with stronger associations if the mother was the victim. Controlling for cohort, municipality, socioeconomic factors, parental cohabitation, and parental offending explains about 60% of this correlation. The link is weaker in higher‑income families; it persists for sons, but is driven to zero for daughters. Further, children of victimized parents experience lower absolute income mobility, comparable to the Black‑White difference for men in the United States.   ]]></abstract>
@@ -318,8 +345,8 @@ Using four decades of Danish administrative data, we estimate the intergeneratio
     <coauthors>Sonia Bhalotra, Louis Freget, Jonas Cuzulan Hirani, Priyama Majumdar, Mircea Trandafir, Miriam Wüst, Tom Zohar</coauthors>
     <date>January 2026</date>
     <notes><![CDATA[
-    CESifo WP 12392. IZA WP 18366. RFBerlin WP 15/26.
-    <br> Revise and Resubmit at the <b>Review of Economics and Statistics</b>
+    CESifo WP 12392; IZA DP 18366; RFBerlin DP 15/26.
+    <br> Revise and resubmit at the <b>Review of Economics and Statistics</b>
     ]]></notes>
     <abstract><![CDATA[
 Using Danish administrative data linked to two independent, validated postpartum depression screenings, we study how postpartum mental health shocks shape women’s labor market trajectories. Event-study estimates show no pre-birth differences in trends between depressed and non-depressed mothers, but persistent employment gaps that widen immediately after birth. Health-care utilization patterns indicate that these differences reflect acute mental health shocks rather than pre-existing trends. The penalties are concentrated among less educated mothers and those in less family-friendly jobs. Our results highlight postpartum depression as a meaningful and unequal contributor to the motherhood penalty.    ]]></abstract>
@@ -332,7 +359,7 @@ Using Danish administrative data linked to two independent, validated postpartum
     <coauthors>Dan Anderberg, Line Andersen, Mette Ejrnæs</coauthors>
     <date>October 2025</date>
     <notes><![CDATA[
-    CESifo WP 12189. IZA WP 18194. RFBerlin WP 132/25.
+    CESifo WP 12189; IZA DP 18194; RFBerlin DP 132/25.
     ]]></notes>
     <abstract><![CDATA[
 We examine the impact of a 2002 Danish parental leave reform on intimate partner violence (IPV) using administrative data on assault-related hospital contacts. Using a regression discontinuity design, we show that extending fully paid leave increased mothers’ leave-taking and substantially reduced IPV, with effects concentrated among less-educated women. The reform also lengthened birth spacing, while separations remained unchanged and earnings effects were modest. The timing and heterogeneity of impacts point to fertility adjustments—rather than exit options or financial relief—as the key mechanism. Parental leave policy thus emerges as an underexplored lever for reducing IPV.    ]]></abstract>
@@ -345,34 +372,28 @@ We examine the impact of a 2002 Danish parental leave reform on intimate partner
     <coauthors>Sonia Bhalotra, Mircea Trandafir</coauthors>
     <date>July 2025</date>
     <notes><![CDATA[
-    CESifo WP 12067. IZA WP 18069. RFBerlin WP 90/25.
+    CESifo WP 12067; CEPR DP 20585; IZA DP 18069; RFBerlin DP 90/25.
     ]]></notes>
     <abstract><![CDATA[
-    Mental health disorders tend to emerge in childhood, with half starting by age %&. This makes
-early intervention important, but treatment rates are low, and antidepressant treatment for children remains controversial since an FDA warning in "##& that highlighted adverse effects. Linking individuals across Danish administrative registers, we provide some of the first evidence of
-impacts of antidepressant treatment in childhood on objectively measured mental health indicators and economic outcomes over time, and the !rst attempt to investigate under- vs over-
-treatment. Leveraging conditional random assignment of patients to psychiatrists with different prescribing tendencies, we find that treatment during ages 8-15 improves test scores at age 16, particularly in Math, increases enrollment in post-compulsory education at age 18, and that
-it leads to higher employment and earnings and lower welfare dependence at ages 25-30. We
-demonstrate, on average, a reduction in suicide attempts, self-harm, and hospital visits following AD initiation. The gains to treatment are, in general, larger for low SES children, but they
-are less likely to be treated. Using a marginal treatment effects framework and Math scores as the
-focal outcome, we show positive returns to treatment among the untreated. Policy simulations
-confirm that expanding treatment among low SES children (and boys) generates substantial net
-benefits, consistent with under-treatment in these groups. Our !ndings underscore the potential of early mental health treatment to improve longer term economic outcomes and reducing
-inequality.    ]]></abstract>
+    Mental health disorders tend to emerge in childhood, with half starting by age 14. This makes early intervention important, but treatment rates are low, and antidepressant treatment for children remains controversial since an FDA warning in 2004 that highlighted adverse effects. Linking individuals across Danish administrative registers, we provide some of the first evidence of impacts of antidepressant treatment in childhood on objectively measured mental health indicators and economic outcomes over time, and the first attempt to investigate under- vs over-treatment. Leveraging conditional random assignment of patients to psychiatrists with different prescribing tendencies, we find that treatment during ages 8-15 improves test scores at age 16, particularly in Math, increases enrollment in post-compulsory education at age 18, and that it leads to higher employment and earnings and lower welfare dependence at ages 25–30. We demonstrate, on average, a reduction in suicide attempts, self-harm, and hospital visits following AD initiation. The gains to treatment are, in general, larger for low SES children, but they are less likely to be treated. Using a marginal treatment effects framework and Math scores as the focal outcome, we show positive returns to treatment among the untreated. Policy simulations confirm that expanding treatment among low SES children (and boys) generates substantial net benefits, consistent with under-treatment in these groups. Our findings underscore the potential of early mental health treatment to improve longer term economic outcomes and reducing inequality.
+    ]]></abstract>
     <doc>AD.pdf</doc>
+    <media>
+      <item outlet="Weekendavisen" date="2025-09-26" lang="Danish" url="https://www.weekendavisen.dk/ideer/den-rette-medicin">Den rette medicin</item>
+    </media>
   </wp>
 
     <wp>
     <id>child_disability</id>
     <title>Child Disability and Effects on Sibling Mental Health</title>
     <coauthors>Janet Currie, Mette Gørtz, and Jonas Hirani</coauthors>
-    <date>December 2025</date>
+    <date>July 2026</date>
     <notes><![CDATA[
-    CESifo WP 12802. IZA WP 18783. NBER WP 33303. RFBerling WP 186/26.
-    <br> Revise and Resubmit at the <b>Journal of Political Economy Microeconomics</b>
+    CESifo WP 12802; IZA DP 18783; NBER WP 33303; RFBerlin DP 186/26.
+    <br> Revise and resubmit at the <b>Journal of Political Economy Microeconomics</b>
     ]]></notes>
     <abstract><![CDATA[
-    We investigate how a younger sibling’s physical disability affects sibling mental health using Danish register data on families with three or more children.  Difference-in-difference models compare first- and second-born children when the third-born does or does not have a disability.  Use of mental health services increases 13% among second-born children, with a 23% increase in psychiatric visits and an 18% increase in use of psychiatric medications. Effects are concentrated in households where the mother has less than high school and persist after conditioning on child test scores. Parental responses suggest that caregiving demands, stress, and strained resources are potential mechanisms.
+    We ask how a younger sibling’s physical disability affects sibling mental health using Danish register data on families with three or more children. Difference-in-difference models compare first- and second-born children when the third-born does or does not have a disability.  Use of mental health services increases 13% among second-born children, with a 23% increase in psychiatric visits and an 18% increase in use of psychiatric medications. Effects are concentrated in households where the mother has less than high school and persist after conditioning on child test scores. Parental responses suggest that caregiving demands, stress, and strained resources are potential mechanisms.
     ]]></abstract>
     <doc>ChildDisability.pdf</doc>
   </wp>
@@ -383,11 +404,11 @@ inequality.    ]]></abstract>
     <coauthors>Achyuta Adhvaryu, Snaebjorn Gunnsteinsson, Teresa Molina, Herdis Steingrimsdottir</coauthors>
     <date>December 2025</date>
     <notes><![CDATA[
-    CESifo WP 10418. IZA WP 16115. NBER WP 31277.
-    <br> Revise and Resubmit at the <b>Journal of Health Economics</b>
+    CESifo WP 10418; IZA DP 16115; NBER WP 31277.
+    <br> Revise and resubmit at the <b>Journal of Health Economics</b>
     ]]></notes>
     <abstract><![CDATA[
-    How do parents contend with threats to the health and survival of their children? Can the social safety net mitigate the negative economic effects on affected families? We study these questions by combining the universe of cancer diagnoses among Danish children with register data for affected and matched unaffected families. Parental income declines substantially for 3-4 years following a child's cancer diagnosis. Fathers' incomes eventually recover fully, but mothers' incomes remain 3% lower 12 years after diagnosis. Using a policy reform that increased the generosity of targeted safety net transfers to affected families, we show that such transfers play a crucial role in smoothing income and, importantly, do not generate work disincentive effects; indeed, if anything, mothers' labor market outcomes improve as a result of the additional generosity. Mental health and fertility effects are large, but are not likely mediators for impacts on economic outcomes. The overall pattern of results is most consistent with the idea that parents' preferences to personally provide care for and spend time with their sick children are strong enough that additional work disincentives created by the generosity of the safety net are essentially irrelevant. This makes timely transfers to affected families an effective policy tool for smoothing income during the critical years following the onset of a severe health shock to children.
+    How do parents contend with threats to the health and survival of their children, and can the safety net mitigate potential negative effects? We study these questions by combining the universe of cancer diagnoses among Danish children with register data for affected and matched unaffected families. Family income declines substantially for 3-4 years following a child’s cancer diagnosis. Fathers’ incomes eventually recover, but mothers’ incomes remain lower 12 years after diagnosis. Using variation in the generosity of targeted transfers to affected families, we show that such transfers play a crucial role in smoothing income and, importantly, do not disincentivize work.
     ]]></abstract>
     <doc>ChildhoodCancer.pdf</doc>
   </wp>
@@ -398,17 +419,11 @@ inequality.    ]]></abstract>
     <coauthors>Ana Costa-Ramón and  Ana Rodríguez-González</coauthors>
     <date>July 2025</date>
     <notes><![CDATA[
-    CESifo WP 10549. IZA WP 16288. 
-    <br> Revise and Resubmit at the <b>Economic Journal</b>
-    <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/oral-contraceptive-pill-and-adolescents-mental-health" target=_blank>VoxEU</a>
+    CESifo WP 10549; CEPR DP 18269; IZA DP 16288.
+    <br> Revise and resubmit at the <b>Economic Journal</b>
     ]]></notes>
     <abstract><![CDATA[
-    This paper examines the mental health and socio-economic effects of oral contraceptive use among adolescents. Using Danish administrative data and two complementary
-identification strategies - an event study and provider prescribing variation - we find
-that initiation of the combined pill leads to short-run increases in psychiatric contacts,
-depression diagnoses, and antidepressant use. Evidence points to a biological mechanism rather than increased detection. Despite these short-term effects, we find no
-impact on academic performance, educational attainment, or labor market outcomes.
-Our findings highlight an important trade-off in adolescent contraceptive care.
+    This paper examines the mental health and socio-economic effects of oral contraceptive use among adolescents. Using Danish administrative data and two complementary identification strategies – an event study and provider prescribing variation – we find that initiation of the combined pill leads to short-run increases in psychiatric contacts, depression diagnoses, and antidepressant use. Evidence points to a biological mechanism rather than increased detection. Despite these short-term effects, we find no impact on academic performance, educational attainment, or labor market outcomes. Our findings highlight an important trade-off in adolescent contraceptive care.
     ]]></abstract>
     <doc>PillMH.pdf</doc>
   </wp>
@@ -419,24 +434,10 @@ Our findings highlight an important trade-off in adolescent contraceptive care.
     <coauthors>Michael F. Lovenheim and David N. Wasser</coauthors>
     <date>July 2025</date>
     <notes><![CDATA[
-    CESifo WP 10647. IZA WP 16429. NBER WP 31669. 
-    <br> Press Coverage: <a href="https://cepr.org/voxeu/columns/intergenerational-transmission-housing-wealthe" target=_blank>VoxEU</a>
+    CESifo WP 10647; IZA DP 16429; NBER WP 31669.
     ]]></notes>
     <abstract><![CDATA[
-    Rising wealth inequality has spurred an increased interest in understanding how and why
-wealth is correlated across generations. We exploit plausibly exogenous variation in housing
-wealth driven by home value changes in different areas to isolate the causal impact of parental
-housing wealth during different childhood periods on children’s long-run wealth accumulation.
-Using population-level Danish administrative data, we find that 27% and 25% of each Krone of
-parental housing wealth change during early-childhood is transmitted to children’s overall and
-housing wealth in adulthood, respectively. The corresponding transmission rates for parental
-housing wealth changes during middle-childhood are 25% and 15%, with a transmission to non-
-housing wealth of 10%. There is little evidence of transmission of parental housing wealth
-changes that occur during the teenage years. Examining mechanisms, we find that earnings
-and educational attainment can explain only 20-30% of the intergenerational transmission of
-parental wealth gains. We argue that the transmission of parental housing wealth changes in
-childhood are driven in large part by changes to unobserved household environment and parental
-behaviors that are passed on to children and shape their savings behavior in adulthood.
+    Persistent wealth inequality has spurred an increased interest in understanding how and why wealth is correlated across generations. We exploit plausibly exogenous variation in housing wealth driven by home value changes in different areas to isolate the causal impact of parental housing wealth during different childhood periods on children’s long-run wealth accumulation. Using population-level Danish administrative data, we find that 27% and 25% of each Krone of parental housing wealth change during early-childhood is transmitted to children’s overall and housing wealth in adulthood, respectively. The corresponding transmission rates for parental housing wealth changes during middle-childhood are 25% and 15%, with a transmission to non-housing wealth of 10%. There is little evidence of transmission of parental housing wealth changes that occur during the teenage years. Examining mechanisms, we find that direct transfers and asset allocation are unlikely to be significant and that earnings and educational attainment can explain only 20-30% of the intergenerational transmission of parental wealth gains. We argue that the transmission of parental housing wealth changes in childhood are driven in large part by changes to unobserved household environment and parental behaviors that are passed on to children and shape their savings behavior in adulthood.
     ]]></abstract>
     <doc>HWTransmission.pdf</doc>
   </wp>
@@ -446,7 +447,9 @@ behaviors that are passed on to children and shape their savings behavior in adu
     <title>An Economic Approach to Machine Learning in Health Policy</title>
     <coauthors>Sendhil Mullainathan, Ziad Obermeyer, Suproteem K. Sarkar, Mircea Trandafir</coauthors>
     <date>January 2024</date>
-    <notes></notes>
+    <notes><![CDATA[
+    CEBI WP 24/22.
+    ]]></notes>
     <abstract><![CDATA[
     We consider the health effects of "precision" screening policies for cancer guided by algorithms. We show that machine learning models that predict breast cancer from health claims data outperform models based on just age and established risk factors. We estimate that screening women with high predicted risk of invasive tumors would reduce the long-run incidence of later-stage tumors by 40%. Screening high-risk women would also lead to half the rate of cancer overdiagnosis that screening low-risk women would. We show that these results depend crucially on the machine learning model’s prediction target. A model trained to predict positive mammography results leads to policies with weaker health effects and higher rates of overdiagnosis than a model trained to predict invasive tumors.
     ]]></abstract>
@@ -459,7 +462,9 @@ behaviors that are passed on to children and shape their savings behavior in adu
     <title>The Miracle Drugs: Hormone Replacement Therapy and Labor Market Behavior of Middle Aged Women</title>
     <coauthors>Chiara Orsini</coauthors>
     <date>Revised February 2014</date>
-    <notes>IZA WP 7993.</notes>
+    <notes><![CDATA[
+    IZA DP 7993.
+    ]]></notes>
     <abstract><![CDATA[
       In an aging society, determining which factors contribute to the employment of older individuals is increasingly important. We examine the impact of medical innovations on the employment of middle-aged women focusing on the specific case of Hormone Replacement Therapy (HRT), a common treatment for the alleviation of negative menopausal symptoms. HRT medications were among the most popular prescriptions in the United States until 2002 when the Women’s Health Initiative Study – the largest randomized control trial on women ever undertaken – documented the health risks associated with their long term use. We exploit the release of these findings within a Fixed Effect Instrumental Variable framework to address the endogeneity in HRT use. Our results indicate substantial benefits of HRT use to the short-term employment of middle-aged women.
     ]]></abstract>

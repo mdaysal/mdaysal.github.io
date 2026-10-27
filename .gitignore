@@ -1,0 +1,6 @@
+# Mac system files
+.DS_Store
+
+# Private files kept locally, not published
+Daysal_Research_Statement.*
+images/profile IZA.jpg
